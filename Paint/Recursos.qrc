@@ -8,5 +8,10 @@
         <file>Recursos/rectangulo.png</file>
         <file>Recursos/rueda-de-color.png</file>
         <file>Recursos/cepillo.png</file>
+        <file>Recursos/abrir-esquema-de-carpeta.png</file>
+        <file>Recursos/disquete.png</file>
+        <file>Recursos/limpiar.png</file>
+        <file>Recursos/salida-de-emergencia.png</file>
+        <file>Recursos/archivo-nuevo.png</file>
     </qresource>
 </RCC>

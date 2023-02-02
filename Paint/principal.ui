@@ -96,8 +96,8 @@
   </widget>
   <action name="actionNuevo">
    <property name="icon">
-    <iconset>
-     <normaloff>:/Recursos/archivo-nuevo.png</normaloff>:/Recursos/archivo-nuevo.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/abrir-esquema-de-carpeta.png</normaloff>:/Recursos/abrir-esquema-de-carpeta.png</iconset>
    </property>
    <property name="text">
     <string>Nuevo</string>
@@ -108,8 +108,8 @@
   </action>
   <action name="actionGuardar">
    <property name="icon">
-    <iconset>
-     <normaloff>:/Recursos/guardar-el-archivo.png</normaloff>:/Recursos/guardar-el-archivo.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/disquete.png</normaloff>:/Recursos/disquete.png</iconset>
    </property>
    <property name="text">
     <string>Guardar</string>
@@ -216,8 +216,8 @@
   </action>
   <action name="actionAbrir">
    <property name="icon">
-    <iconset>
-     <normaloff>:/Recursos/abrir-carpeta-con-documento.png</normaloff>:/Recursos/abrir-carpeta-con-documento.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/archivo-nuevo.png</normaloff>:/Recursos/archivo-nuevo.png</iconset>
    </property>
    <property name="text">
     <string>Abrir</string>
@@ -228,39 +228,63 @@
   </action>
   <action name="actionLimpiar">
    <property name="icon">
-    <iconset>
-     <normaloff>:/Recursos/Limpiar.png</normaloff>:/Recursos/Limpiar.png</iconset>
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/limpiar.png</normaloff>:/Recursos/limpiar.png</iconset>
    </property>
    <property name="text">
     <string>Limpiar</string>
    </property>
   </action>
   <action name="actionLinea">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/linea-diagonal.png</normaloff>:/Recursos/linea-diagonal.png</iconset>
+   </property>
    <property name="text">
     <string>Linea</string>
    </property>
   </action>
   <action name="actionRectangulo">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/rectangulo.png</normaloff>:/Recursos/rectangulo.png</iconset>
+   </property>
    <property name="text">
     <string>Rectangulo</string>
    </property>
   </action>
   <action name="actionCircunferencia">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/lavado-en-seco.png</normaloff>:/Recursos/lavado-en-seco.png</iconset>
+   </property>
    <property name="text">
     <string>Circunferencia</string>
    </property>
   </action>
   <action name="actionLIbre">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/pincel.png</normaloff>:/Recursos/pincel.png</iconset>
+   </property>
    <property name="text">
     <string>LIbre</string>
    </property>
   </action>
   <action name="actionColor_2">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/rueda-de-color.png</normaloff>:/Recursos/rueda-de-color.png</iconset>
+   </property>
    <property name="text">
     <string>Color</string>
    </property>
   </action>
   <action name="actionGrosor">
+   <property name="icon">
+    <iconset resource="Recursos.qrc">
+     <normaloff>:/Recursos/ancho.png</normaloff>:/Recursos/ancho.png</iconset>
+   </property>
    <property name="text">
     <string>Grosor</string>
    </property>
